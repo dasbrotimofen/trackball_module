@@ -10,8 +10,8 @@ ENCODER_MAP_ENABLE = yes
 
 in trackball_module/keymaps/default/rules.mk to enable changing of rotary encoder behavior, so REMAP can rempa the encoder direction function
 
-<img src="/images/MouseBtn3_Just_Button.png" width="400" height="400">
-<img src="/images/BTN3_now_changable.png" width="400" height="400">
+<img src="/images/MouseBtn3_Just_Button.png" width="200" height="200">
+<img src="/images/BTN3_now_changable.png" width="200" height="200">
 
 
 ## QMK files are in firmware folder 
@@ -31,7 +31,7 @@ src/keyboards/aki27/trackball_module
 
 ## Complete Flash QMK Toolbox
 
-<img src="images/QMKToolbox_flash_Complete.png" width="150" height="280">
+<img src="images/QMKToolbox_flash_Complete.png" width="400" height="350">
 
 
 # Overview
