@@ -2,7 +2,7 @@
 
 ![trackball_module_main00](/images/main_00.jpg)
 
-# Update
+# Update 29.01.26
 
 Added:  
 ENCODER_ENABLE = yes  
@@ -10,7 +10,7 @@ ENCODER_MAP_ENABLE = yes
 
 in rules.mk to enable changing of rotary encoder behavior
 
-## QMK files are in firmware folder
+## QMK files are in firmware folder 
 
 # Overview
 
