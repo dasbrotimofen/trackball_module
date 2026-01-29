@@ -5,8 +5,8 @@
 # Update
 
 Added:
-ENCODER_ENABLE = yes
-ENCODER_MAP_ENABLE = yes
+ENCODER_ENABLE = yes \\n
+ENCODER_MAP_ENABLE = yes \\n
 
 in rules.mk to enable changing of rotary encoder behavior
 
