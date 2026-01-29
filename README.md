@@ -12,6 +12,8 @@ in rules.mk to enable changing of rotary encoder behavior
 
 ## QMK files are in firmware folder 
 
+src/keyboards/aki27/trackball_module
+
 # Overview
 
 This is a module part for 34mm trackball with ADNS-5050 sensor. Module size is within 2u x 2u (38mm x 38mm) so that it can be easily implemented with existing DIY keyboards. Connection with other boards is via 2.54mm-pitched 5 pins or 1.0mm-pitched SH connector. The module is embedded with a Meishi (name card) sized PCB which can also work as a stand-alone mini trackball with two keys, a rotary encoder and an OLED display.
