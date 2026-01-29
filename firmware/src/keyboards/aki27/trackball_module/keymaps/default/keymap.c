@@ -35,7 +35,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
        MS_BTN1,    MS_BTN2,    MS_BTN3
     ),
   [_LOWER] = LAYOUT(
-       KC_A,    KC_B,    KC_C
+       MS_BTN4,    KC_B,    SCRL_TO
     ),
   [_RAISE] = LAYOUT(
        KC_A,    KC_B,    KC_C
