@@ -32,7 +32,7 @@ enum layer_number {
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [_BASE] = LAYOUT(
-       KC_MS_BTN1,    KC_MS_BTN2,    KC_MS_BTN3
+       MS_BTN1,    MS_BTN2,    MS_BTN3
     ),
   [_LOWER] = LAYOUT(
        KC_A,    KC_B,    KC_C
@@ -47,11 +47,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 
 #if defined(ENCODER_MAP_ENABLE)
-const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][NUM_DIRECTIONS] = {
-    [0] = { ENCODER_CCW_CW(KC_PGUP, KC_PGDN) },
-    [1] = { ENCODER_CCW_CW(KC_PGUP, KC_PGDN) },
-    [2] = { ENCODER_CCW_CW(KC_PGUP, KC_PGDN) },
-    [3] = { ENCODER_CCW_CW(KC_PGUP, KC_PGDN) },
+const uint16_t PROGMEM encoder_map[4][NUM_ENCODERS][NUM_DIRECTIONS] = {
+    [_BASE]      = { ENCODER_CCW_CW(KC_PGUP, KC_PGDN) },
+    [_LOWER]     = { ENCODER_CCW_CW(KC_PGUP, KC_PGDN) },
+    [_RAISE]     = { ENCODER_CCW_CW(KC_PGUP, KC_PGDN) },
+    [_TRACKBALL] = { ENCODER_CCW_CW(KC_PGUP, KC_PGDN) },
 };
 #endif
 

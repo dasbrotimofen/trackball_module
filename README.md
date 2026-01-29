@@ -8,11 +8,28 @@ Added:
 ENCODER_ENABLE = yes  
 ENCODER_MAP_ENABLE = yes  
 
-in rules.mk to enable changing of rotary encoder behavior
+in trackball_module/keymaps/default/rules.mk to enable changing of rotary encoder behavior, so REMAP can rempa the encoder direction function
+
+![remap_old](/images/MouseBtn3_Just_Button.png) ![remap_new](/images/BTN3_now_changable.png)
 
 ## QMK files are in firmware folder 
 
 src/keyboards/aki27/trackball_module
+
+
+# How to Update with given .hex file
+
+- Go to https://remap-keys.app/configure, set any Button to Bootloader
+- Open QMK Toolbox with admin rights
+- Turn on Auto-Flash
+- Choose firmware.hex file
+- press "Bootloader" Button
+- wait for flashing complete (Sometimes it little buggy, so look at Toolbox output and if not flash correctly, reapeat flash attempt)
+- Now be able to change Encoder left/right in Remap
+
+## Complete Flash QMK Toolbox
+
+![good_flash](images/QMKToolbox_flash_Complete.png)
 
 # Overview
 
